@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  .container
+    h1 Testing with Zombie.js
+    hr
+    form(method="post")
+      div
+        input(type="text", name="username", placeholder="your username here")
+      div
+        input(type="password", name="password")
+      div
+        input.btn(type="submit", value="Login")
