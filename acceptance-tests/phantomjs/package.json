@@ -13,7 +13,6 @@
   "devDependencies": {
     "gulp": "^3.8.8",
     "gulp-jasmine": "^1.0.1",
-    "phantom": "^0.6.6",
-    "phantomjs": "^1.9.11"
+    "phantom": "^0.6.6"
   }
 }

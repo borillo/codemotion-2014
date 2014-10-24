@@ -5,7 +5,7 @@ router.get('/', function (req, res) {
     res.render('login', { title: 'Express' });
 });
 
-router.post('/', function (req, res) {
+router.post('/login', function (req, res) {
     var username = req.body.username,
         password = req.body.password;
 

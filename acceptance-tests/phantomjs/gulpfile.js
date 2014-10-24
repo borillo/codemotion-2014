@@ -18,5 +18,4 @@ gulp.task('default', ['acceptance-tests'], function () {
         server.close();
         gulp.run('acceptance-tests');
     });
-
 });
