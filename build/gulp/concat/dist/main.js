@@ -1,0 +1,1 @@
+function funcion1(){}function funcion2(){}var variable="prueba";
